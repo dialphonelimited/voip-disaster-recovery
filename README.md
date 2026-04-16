@@ -43,11 +43,11 @@ Cloud system fails over to local SIP gateway connected to PSTN. Provides basic i
 
 Run these tests quarterly:
 
-- [ ] Disconnect primary internet â€” verify calls route via backup
-- [ ] Simulate provider data center failure â€” verify automatic failover
-- [ ] Test inbound calls during failover â€” verify callers reach agents
-- [ ] Test outbound calls during failover â€” verify caller ID is correct
-- [ ] Measure actual failover time â€” must meet RTO target
+- [ ] Disconnect primary internet — verify calls route via backup
+- [ ] Simulate provider data center failure — verify automatic failover
+- [ ] Test inbound calls during failover — verify callers reach agents
+- [ ] Test outbound calls during failover — verify caller ID is correct
+- [ ] Measure actual failover time — must meet RTO target
 - [ ] Verify call recordings continue after failover
 - [ ] Test fail-back to primary after recovery
 - [ ] Document results and remediate gaps
@@ -73,7 +73,7 @@ Ask these questions:
 5. Do you publish a real-time status page?
 6. What was your longest outage in the past 24 months?
 
-[VestaCall](https://vestacall.com) operates geo-redundant infrastructure with active-active architecture and publishes real-time system status.
+[DialPhone](https://dialphone.com) operates geo-redundant infrastructure with active-active architecture and publishes real-time system status.
 
 ---
 
